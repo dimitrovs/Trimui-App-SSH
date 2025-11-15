@@ -1,0 +1,58 @@
+# Build directories
+build/
+
+# Object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+Dropbear-App
+test_runner
+
+# Compiled binaries in dropbear submodule
+dropbear/dropbear
+dropbear/dropbearkey
+dropbear/dbclient
+dropbear/scp
+dropbear/dropbearconvert
+
+# Dropbear build artifacts
+dropbear/config.h
+dropbear/config.log
+dropbear/config.status
+dropbear/default_options_guard.h
+dropbear/libtomcrypt/*.o
+dropbear/libtommath/*.o
+dropbear/obj/
+dropbear/*.o
+
+# Host keys (sensitive)
+dropbear_rsa_host_key
+dropbear_ecdsa_host_key
+dropbear_ed25519_host_key
+
+# Logs
+*.log
+app.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependency files
+*.d
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+*.tmp
+*.bak
